@@ -48,7 +48,7 @@ npm install
 npm run start
 ```
 
-Once both the frontend and backend are running, you can interact with the **Local Saver** tool through the frontend interface.
+Once both the frontend and backend are running, you can interact with the **Local Saver** tool through the frontend interface. Files can be found in the path `backend/uploads`.
 
 ## Contribution
 
