@@ -20,7 +20,7 @@ To set up and run **Local Saver**, follow the instructions below. Ensure you hav
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/local-saver.git
+git clone https://github.com/Loboqui/local-saver.git
 cd local-saver
 ```
 
