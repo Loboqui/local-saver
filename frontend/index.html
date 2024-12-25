@@ -1,0 +1,41 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>文件上传</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 50px;
+      }
+      #drop-zone {
+        border: 2px dashed #ccc;
+        padding: 50px;
+        text-align: center;
+        color: #ccc;
+        margin-bottom: 20px;
+      }
+      #drop-zone.dragover {
+        border-color: #333;
+        color: #333;
+      }
+      #upload-button {
+        padding: 10px 20px;
+        font-size: 16px;
+      }
+      #status {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>文件上传示例</h1>
+    <div id="drop-zone">将文件粘贴到此处或点击选择文件</div>
+    <input type="file" id="file-input" style="display: none" />
+    <button id="upload-button" disabled>上传文件</button>
+    <div id="status"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
